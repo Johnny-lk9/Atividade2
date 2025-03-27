@@ -12,8 +12,8 @@ Inicio
    se (n1 > n2 e n3) entao
       maior <- n1
    senao
-      se (n2 > n1 e n3) entao
-         maior < n2
+      se (n2 > maior) entao
+         maior <- n2
       senao
          maior <- n3
       fimse
@@ -31,6 +31,6 @@ Inicio
    
    soma <- maior + menor
    
-   escreva("A soma do maior e do menor numero é: ", soma)
+   escreva("A soma do maior e do menor numero Ã©: ", soma)
    
 Fimalgoritmo
