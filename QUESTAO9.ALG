@@ -14,9 +14,9 @@ Inicio
    delta <- b * b - 4 * a * c
 
    se (delta > 0) entao
-      raiz1 <- (-b + Raiz(delta)) / (2 * a)
-      raiz2 <- (-b - Raiz(delta)) / (2 * a)
-      Escreva("As raizes são: ", raiz1, " e ", raiz2)
+      raiz1 <- (-b + RaizQ(delta)) / (2 * a)
+      raiz2 <- (-b - RaizQ(delta)) / (2 * a)
+      Escreva("As raizes sÃ£o: ", raiz1, " e ", raiz2)
    senao
       Se delta = 0 entao
          raiz1 <- -b / (2 * a)
